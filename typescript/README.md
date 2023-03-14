@@ -28,7 +28,7 @@ Whereas the defaults included in the auto-generated `tsconfig.json` file are rea
 * Uncomment the `"noEmit": "true"` option
   This tells the TypeScript compiler to do just type-checks, without generating any output files. This option can be useful when TypeScript is used as a dev tool to catch type-related errors before deploying the code.
 
-
+* Uncomment `skipLibCheck: true`. This compiler option is used to skip type checking of all the declaration files (.d.ts files) which are not relevant to a given project.
 
 ## Additional
 
